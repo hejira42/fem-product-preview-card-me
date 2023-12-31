@@ -55,10 +55,12 @@ html {
 
   .product-card {
     display: flex;
-    border-radius: .6rem 0 0 .6rem;
+    border-radius: .6rem;
     background-color: var(--White);
     overflow: hidden;
     margin: 0 auto;
+    overflow: hidden;
+    max-width: 37.5rem;
   }
 
   .product-text-half  {
@@ -66,7 +68,14 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    flex: 0 auto;
+    align-items: flex-start;
+    flex: 0 1 auto;
+    max-width: 18.8rem;
+  }
+
+  .product-image-half {
+    flex: 0 1 auto;
+    max-width: 18.8rem;
   }
 
   .product-card-title, .product-card-price {
@@ -140,12 +149,14 @@ html {
             align-items: center;
             max-width: 75%;
             margin: 0 auto;
+            border-radius: .6rem;
+            overflow: hidden;
             
     }
-
-    .product-image {
-        border-top-left-radius: .6rem;
-        border-top-right-radius: .6rem;
-        overflow: hidden;
-      }
+        .product-image {
+            border-top-left-radius: .6rem;
+            border-top-right-radius: .6rem;
+            overflow: hidden;
+            
+    }
   }
