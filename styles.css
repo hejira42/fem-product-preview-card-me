@@ -58,7 +58,6 @@ html {
     border-radius: .6rem 0 0 .6rem;
     background-color: var(--White);
     overflow: hidden;
-    min-width: 50%;
     margin: 0 auto;
   }
 
@@ -68,7 +67,6 @@ html {
     flex-direction: column;
     justify-content: space-evenly;
     flex: 0 auto;
-    min-width: 50%;
   }
 
   .product-card-title, .product-card-price {
