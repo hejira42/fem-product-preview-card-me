@@ -55,16 +55,17 @@ html {
 
   .product-card {
     display: flex;
+    align-items: center;
     border-radius: .6rem;
     background-color: var(--White);
     overflow: hidden;
-    margin: 0 auto;
+    margin: 5rem auto;
     overflow: hidden;
     max-width: 37.5rem;
   }
 
   .product-text-half  {
-    margin: 0 1.3rem 1.3rem 1.3rem;
+    margin: 0 1.6rem 1.3rem 1.6rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -86,29 +87,31 @@ html {
     text-transform: uppercase;
     color: var(--Dark-grayish-blue);
     letter-spacing: .3rem;
-    font-size: .7rem;
-    padding-top: 1.3rem;
+    font-size: 1rem;
+    padding-top: 1rem;
   }
 
   .product-card-title {
-    margin-top: .9rem;
-    line-height: 1.5rem;
-    
+    font-size: 2.1rem;
+    line-height: 2.1rem; 
   }
 
   .product-description {
-    margin-top: 1.5rem;
-    line-height: 1.1rem;
+    font-size: 2rem;
   }
 
   .product-card-price {
-    font-size: 1.7rem;
+    font-size: 2.1rem;
     color: var(--Dark-cyan);
   }
 
   .product-description, .product-old-price {
-    font-size: .7rem;
+    font-size: 1rem;
     color: var(--Dark-grayish-blue);
+  }
+
+  .product-card-price {
+    font-size: 2.1rem;
   }
 
   .product-card-prices {
@@ -124,39 +127,67 @@ html {
     border-radius: .2rem;
     border: none;
     padding: .9rem 0;
+    cursor: pointer;
   }
 
   .cta-btn-text {
     color: var(--White);
     font-weight: 700;
     font-size: .7rem;
-
   }
 
   .product-card-btn {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: .7rem;
+  }
+
+  .product-card-btn:hover {
+    background-color: var(--Very-dark-blue);
   }
 
 
   /* Media queries & rules */
 
   @media screen and (max-width: 72.8rem) {
+    
         .product-card { 
             flex-direction: column;
             justify-content: center;
             align-items: center;
             max-width: 75%;
-            margin: 0 auto;
+            margin: 2rem auto;
             border-radius: .6rem;
             overflow: hidden;
-            
     }
+        
         .product-image {
             border-top-left-radius: .6rem;
             border-top-right-radius: .6rem;
-            overflow: hidden;
-            
+            overflow: hidden;     
+    }
+
+        .product-card-ribbon-text {
+            font-size: .7rem;
+    }
+
+        .product-description, .product-old-price {
+            font-size: .7rem;
+    }
+
+        .product-card-title {
+            margin-top: .9rem;
+            line-height: 1.7rem;
+            font-size: 1.6rem; 
+    }
+
+        .product-card-price {
+            font-size: 1.7rem;
+    }
+
+        .product-description {
+            margin-top: 1.5rem;
+            line-height: 1.1rem;
+            font-size: .7rem;
     }
   }
