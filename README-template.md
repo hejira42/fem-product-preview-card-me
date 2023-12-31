@@ -16,8 +16,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -29,20 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./fem-product-preview-mobile-solution.png) 
+![](./fem-product-preview-desktop-solution.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/hejira42/fem-product-preview-card-me)
+- Live Site URL: [https://hejira42.github.io/fem-product-preview-card-me/)
 
 ## My process
 
@@ -56,35 +47,13 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+I learned how to use the picture and hgroup HTML elements. I also used mobile first using media query for the first time. I set up the mobile version first, then tweaked for desktop, then had to go back and tweak some mobile CSS again.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I feel like the code is a mess, but I was happy with my overall "approach" to the project, breaking down the html classes in a separate doc to make sure I was clear on them all before beginning the CSS. I still think I have a lot to learn as far as HTML & CSS go - especially with the bigger picture concerns like how to think forward for extensibility - but I really haven't learned much about these ideas yet. I'm about 2 weeks into my front end dev learning process. I'm at the beginning, so there's a lot more to learn.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+### Useful resources & Acknowledgments
 
-### Useful resources
-
-- [How to plan your HTML (1): Product Preview Card](https://fedmentor.dev/posts/html-plan-product-preview/#product-image) - This helped me structure the divs. Also great tips on using the <picture> element and <hgroup> element. I learned a lot!
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [How to plan your HTML (1): Product Preview Card](https://fedmentor.dev/posts/html-plan-product-preview/#product-image) - This helped me structure the divs and learn the bigger picture approach to a project. Also great tips on using the <picture> element and <hgroup> element. I learned a lot!
+- A friend of mine also helped me troubleshoot sizing for the 2 halves of the desktop version. (Varin)
